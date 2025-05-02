@@ -44,6 +44,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 5.For different input combinations generate the timing diagram.
 
 **PROGRAM**
+```
 module EXP_6(q, q_bar, s,r, clk, reset);
   input s,r,clk, reset;
   output reg q;
@@ -65,7 +66,7 @@ module EXP_6(q, q_bar, s,r, clk, reset);
   assign q_bar = ~q;
 endmodule
 
-
+```
 
 
  Developed by:Avanthika M RegisterNumber:212224110009
